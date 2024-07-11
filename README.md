@@ -1,7 +1,8 @@
 # Media Processing Scripts
 
 
-Just a collection of scripts I run to help me organize, optimize, and validate my media collection(s).
+Just a collection of scripts I run to help me organize, optimize, and validate my media collection(s). Used in conjunction with 
+other applications from the servarr stack that I use to identify and grab media for collection. 
 
 
 # Index 
