@@ -542,6 +542,7 @@ def compress_files(file_type, size_threshold, db_conn):
         SELECT file_path 
         FROM media_files 
         WHERE content_type = ? AND file_size > ? AND (needs_compression IS NULL OR needs_compression = 1)
+        ORDER BY file_size DESC
     """
     cursor.execute(query, (file_type, size_threshold))
     
